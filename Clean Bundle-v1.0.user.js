@@ -4923,4 +4923,58 @@ window.setInterval = new Proxy(window.setInterval, {
     window.selectSkinColor = selectSkinColor;
     window.changeStoreIndex = changeStoreIndex;
     window.config = config;
+
+    window.nk5Bundle = {
+        get player() {
+            return player;
+        },
+    
+        get playerSID() {
+            return playerSID;
+        },
+    
+        get players() {
+            return players;
+        },
+    
+        get gameObjects() {
+            return gameObjects;
+        },
+    
+        get projectiles() {
+            return projectiles;
+        },
+    
+        get ais() {
+            return ais;
+        },
+    
+        get camX() {
+            return camX;
+        },
+    
+        get camY() {
+            return camY;
+        },
+    
+        get mouseX() {
+            return mouseX;
+        },
+    
+        get mouseY() {
+            return mouseY;
+        },
+    
+        get mainContext() {
+            return mainContext;
+        },
+    
+        get gameCanvas() {
+            return gameCanvas;
+        },
+    
+        get keys() {
+            return keys;
+        }
+    };
 })();
