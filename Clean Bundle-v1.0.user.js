@@ -4976,5 +4976,8 @@ window.setInterval = new Proxy(window.setInterval, {
         get keys() {
             return keys;
         }
+        get io() {
+            return io;
+        }
     };
 })();
